@@ -1,6 +1,7 @@
 <template lang="html">
 
   <div class="sample">
+    
     <div>
       <slot/>
     </div>
@@ -13,6 +14,7 @@
 ​
 <script>
 export default {
+  layout: 'dark',
   props: {
     title: {
       type: String,
